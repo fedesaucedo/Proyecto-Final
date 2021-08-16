@@ -7,6 +7,10 @@
 }
 
 /* Esto irá en el Header que va a ser el mismo para todas las secciones */
+#mainHeader{
+  grid-area: header;
+  position: absolute;
+}
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -16,11 +20,14 @@
   align-items: center;
   font-size: 1rem;
 }
+h1{
+  display: inline;
+}
 .bg-light {
   background-color: #7AACBF !important;
 }
 .navbar-brand{
-  font-size: 0.9rem !important; 
+  font-size: 0.7rem !important; 
 }
 .navbar-toggler{
   padding: 0 !important;
