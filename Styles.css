@@ -7,9 +7,8 @@
 }
 
 /* Esto irá en el Header que va a ser el mismo para todas las secciones */
-#mainHeader{
-  grid-area: header;
-  position: absolute;
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+  height: 15%;
 }
 .navbar-nav {
   display: flex;
