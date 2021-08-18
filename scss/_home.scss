@@ -1,0 +1,83 @@
+body{
+    main{
+        .homeSection{
+            margin-top: 15vh;
+            width: 100%;
+            height: 70vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: baseline;
+        }
+        div{
+            
+            #backgroundImage{
+                flex-basis: 70%;
+                background-image: url(../Images/backgroung.png);
+                background-size: cover;
+                background-repeat: no-repeat ;
+                color: white;
+            }
+            .homeSubtitles{
+                padding-top: 19rem;
+                padding-left: 2rem;
+                line-height: 1.6;
+                text-align: left;
+              }
+              .fontSubtitle1{
+                font-family: 'Roboto', sans-serif;
+              }
+              .letterSpacing{
+                letter-spacing: 4px;
+                font-size: 11px;
+              }
+              .big{
+                font-size: 19px;
+                word-spacing: 4px;
+                font-weight: 900;
+              }
+              .small{
+                font-size: 14px;
+              }
+              .fontSubtitle2{
+                font-family: 'Yanone Kaffeesatz', sans-serif;
+              }
+              .asidePadding{
+                padding-top: 2rem;
+                font-size: 10px;
+              }
+              .fontSubtitle2.aside{
+                line-height: 1.8;
+              }
+              .asidePadding1{
+                padding-bottom: 2rem;
+              }
+              #homeAside{
+                  background-color: #7AACBF;
+                  color: white;
+                  text-align: center;
+                  box-sizing: unset;
+                  padding-top: 2.5rem;
+                  flex-basis: 30%;
+              }
+              #homeAside a{
+                text-decoration: none;
+                color: white;
+              }
+              .profilePhoto{
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+              }
+              .buttomCV{
+                background-color: white;
+                color: #7AACBF;
+                width: 70px;
+                height: 40px;
+                border: 0px;
+                margin-top: 40px;
+              }
+        }
+    }
+
+}
+    

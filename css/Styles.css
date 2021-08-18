@@ -1,0 +1,387 @@
+* {
+  Margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top{
+  height: 15vh;
+}
+.navbar-nav {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  align-items: center;
+  font-size: 1rem;
+}
+h1{
+  display: inline;
+}
+.bg-light {
+  background-color: #7AACBF !important;
+}
+.navbar-brand{
+  font-size: 0.7rem !important; 
+}
+.navbar-toggler{
+  padding: 0 !important;
+}
+/* Esta parte del css será para la seccion Home */
+.indexGrid{
+display: grid;
+width: 100%;
+height: 100vh;
+grid-template-areas: 
+  "header header"
+  "article aside"
+  "footer footer"
+;
+grid-template-rows: 1.5fr 6.8fr 1.7fr;
+font-family: 'Roboto', sans-serif;
+}
+#backgroundImage{
+    background-image: url(./Images/backgroung.png);
+    background-size: cover;
+    background-repeat: no-repeat ;
+    color: white;
+    grid-area: article;
+    width: 70vw;
+}
+.homeSubtitles{
+  padding-top: 19rem;
+  padding-left: 2rem;
+  line-height: 1.6;
+  text-align: left;
+}
+.fontSubtitle1{
+  font-family: 'Roboto', sans-serif;
+}
+.letterSpacing{
+  letter-spacing: 4px;
+  font-size: 11px;
+}
+.big{
+  font-size: 19px;
+  word-spacing: 4px;
+  font-weight: 900;
+}
+.small{
+  font-size: 14px;
+}
+.fontSubtitle2{
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.asidePadding{
+  padding-top: 2rem;
+  font-size: 10px;
+}
+.fontSubtitle2.aside{
+  line-height: 1.8;
+}
+.asidePadding1{
+  padding-bottom: 2rem;
+}
+#homeAside{
+    background-color: #7AACBF;
+    color: white;
+    text-align: center;
+    box-sizing: unset;
+    padding-top: 2.5rem;
+    grid-area: aside;
+}
+#homeAside a{
+  text-decoration: none;
+  color: white;
+}
+.profilePhoto{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.buttomCV{
+  background-color: white;
+  color: #7AACBF;
+  width: 70px;
+  height: 40px;
+  border: 0px;
+  margin-top: 40px;
+}
+
+/* Esta parte del css será para la seccion About Me */
+.bodyAboutMe{
+  background-color: #7AACBF;
+  font-family: 'Roboto', sans-serif;
+}
+.articleAboutMe{
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.flexAboutMe{
+  margin-top: 20px;
+  margin-left: 330px;
+  height: 400px;
+  width: 800px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  align-items: center;
+  padding-top: 50px;
+}
+.h2AboutMe{
+  margin-bottom: 10px;
+  font-size: 40px;
+}
+.h3AboutMe{
+  font-size: 20px;
+}
+/* Esta parte del css será para la seccion Resume */
+.backgroundResume{
+  background-color:#7AACBF ;
+  font-family: 'Roboto', sans-serif;
+}
+.resumeSection{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.flexRowResume{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+.h2Resume{
+  margin-right: 150px;
+}
+.articleResume{
+  height: 400px;
+  width: 700px;
+  background-color: white;
+  margin: 20px;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.resumeList {
+  list-style: square;
+  padding: 20px;
+  }
+
+/* Esta parte del css será para la seccion Portfolio */
+.bodyPortfolio{
+  font-family: 'Roboto', sans-serif;
+  background-color: #7AACBF ;
+}
+.portfolioSection{
+  margin-top: 18vh;
+}
+.projectsBorder{
+  border-bottom: rgb(109, 107, 107) dotted;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.carousel-item .d-block{
+  height: 40vh;
+  width: 40%;
+}
+.articlePortfolio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flexPortfolio{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.clientsLogo{
+  margin: 30px;
+}
+
+/* Esta parte del css será para la seccion Contact */
+.bodyContact{
+  font-family: 'Roboto', sans-serif;
+  background-color: #7AACBF ;
+}
+.contactFlex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: content-box;
+}
+.flexBoxContact{
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  align-content: center;
+  justify-content: center;
+  width: 800px;
+  height: 500px;
+  padding-top: 50px;
+}
+.flexBoxContact a{
+  text-decoration: none;
+}
+.articleContact{
+  margin-right: 100px;
+}
+.articleContact a{
+  color: black;
+}
+.formContact{
+  display: flex;
+  flex-direction: column;
+}
+input {
+  width: 100px;
+  transition: all 2s;       
+}
+input:focus {
+  width: 200px;
+  font-size: 1.2rem;
+}
+/* Esta parte del css será para el Footer */
+.mainFooter{
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(230, 225, 225), rgb(175, 236, 238));
+  bottom: 0;
+  height: auto;
+  grid-area: footer;
+  font-size: 9px;
+}
+.mainFooter a{
+text-decoration: none;
+color: black;
+}
+.h3Centre{
+  text-align: center;
+}
+
+/* Media Querie: PC */
+@media (min-width: 1024px) and (max-width:10000px) {
+  .navbar-brand{
+    font-size: 1.8rem !important; 
+  }
+  .d-inline-block{
+    height: 30px;
+    width: 25px;
+  }
+  .mainTitle1{
+    font-size: 35px;
+  }
+  .mainTitle2{
+    font-size: 23px;
+  }
+
+  .homeSubtitles{
+    padding-left: 4rem;
+    padding-top: 20rem;
+  }
+  .letterSpacing{
+    font-size: 25px;
+  }
+  .big{
+    font-size: 50px;
+  }
+  .small{
+    font-size: 30px;
+  }
+  #homeAside{
+    width: 30vw;
+  }
+  .asidePadding{
+    font-size: 20px;
+  }
+  .profilePhoto{
+    width: 150px ;
+    height: 150px;
+  }
+  .buttomCV{
+    width: 150px;
+    height: 50px;
+    transition: all 2s;
+  }
+  .buttomCV:hover{
+    height: 70px;
+    width: 200px;
+    font-size: 25px;
+    transform: skewY(10deg);
+  }
+  .mainFooter{
+    font-size: 17px;
+    padding-top: 2rem;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
+
+/* Media Querie: Tablet */
+@media (min-width: 768px) and (max-width:1023px) {
+  
+  .mainTitle1{
+    font-size: 25px;
+  }
+  .mainTitle2{
+    font-size: 18px;
+  }
+  nav a{
+    font-size: 12px;
+  }
+  nav li{
+    padding: 5px;
+  }
+  .homeSubtitles{
+    padding-left: 4rem;
+    padding-top: 17rem;
+  }
+  .letterSpacing{
+    font-size: 21px;
+  }
+  .big{
+    font-size: 35px;
+  }
+  .small{
+    font-size: 25px;
+  }
+  #homeAside{
+    width: 30vw;
+  }
+  .asidePadding{
+    font-size: 17px;
+  }
+  .profilePhoto{
+    width: 110px ;
+    height: 110px;
+  }
+  .buttomCV{
+    width: 100px;
+  }
+  .mainFooter{
+    font-size: 14px;
+    padding-top: 2rem;
+  }
+}
+
+@media (min-width: 361px) and (max-width:767px){
+  #homeAside{
+    width: 30vw;
+  }
+
+}
+
+

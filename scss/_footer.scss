@@ -1,0 +1,21 @@
+body{
+    main{
+        .mainFooter{
+            width: 100%;
+            height: 15%;
+            background-image: linear-gradient(to bottom, rgb(230, 225, 225), rgb(175, 236, 238));
+            font-size: 9px;
+            box-sizing: border-box;
+            a{
+            text-decoration: none;
+            color: black;
+            }
+          }
+        footer{
+            .h3Centre{
+                text-align: center;
+              }
+
+        }
+    }
+}
