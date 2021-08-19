@@ -3,13 +3,12 @@ body{
         .homeSection{
             margin-top: 15vh;
             width: 100%;
-            height: 70vh;
             display: flex;
             flex-direction: row;
             justify-content: baseline;
         }
+
         div{
-            
             #backgroundImage{
                 flex-basis: 70%;
                 background-image: url(../Images/backgroung.png);
@@ -75,6 +74,7 @@ body{
                 height: 40px;
                 border: 0px;
                 margin-top: 40px;
+                margin-bottom: 30px;
               }
         }
     }
