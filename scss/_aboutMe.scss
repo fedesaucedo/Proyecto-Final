@@ -1,0 +1,35 @@
+body{
+    background-color: #7AACBF;
+  font-family: 'Roboto', sans-serif;
+  main{
+    .articleAboutMe{
+        margin-top: 150px;
+        text-align: center;
+        margin-bottom: 100px;
+        }
+        article{
+            .flexAboutMe{
+                margin-top: 20px;
+                margin-left: 330px;
+                height: 400px;
+                width: 800px;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-family: 'Roboto', sans-serif;
+                align-items: center;
+                padding-top: 50px;
+                padding: 1.5rem;
+              }
+              .h2AboutMe{
+                margin-bottom: 10px;
+                font-size: 40px;
+              }
+              .h3AboutMe{
+                font-size: 20px;
+              }
+        }
+  }
+  }
+  
