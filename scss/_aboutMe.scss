@@ -6,13 +6,14 @@ body{
         margin-top: 15vh;
         text-align: center;
         margin-bottom: 100px;
+        box-sizing: content-box;
         }
         article{
             .flexAboutMe{
                 background-color: white;
                 margin-left: 20%;
                 margin-right: 20%;
-                height: 50vh;
+                height: 50%;
                 display: flex;
                 flex-direction: column;
                 text-align: center;
@@ -20,6 +21,7 @@ body{
                 align-items: center;
                 padding-top: 50px;
                 padding: 1.5rem;
+                box-sizing: content-box;
               }
               .h2AboutMe{
                 margin-bottom: 10px;
