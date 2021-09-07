@@ -119,6 +119,141 @@ body main .mainFooter {
 body main footer .h3Centre {
   text-align: center; }
 
+body main {
+  background-color: #7AACBF;
+  font-family: 'Roboto', sans-serif; }
+  body main .articleAboutMe {
+    margin-top: 15vh;
+    text-align: center;
+    margin-bottom: 100px; }
+  body main article .flexAboutMe {
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    padding-top: 50px;
+    padding: 1.5rem; }
+  body main article .h2AboutMe {
+    margin-bottom: 10px;
+    font-size: 40px; }
+  body main article .h3AboutMe {
+    font-size: 20px; }
+
+body main {
+  background-color: #7AACBF;
+  font-family: 'Roboto', sans-serif; }
+  body main .resumeSection {
+    margin-top: 15vh;
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly; }
+  body main section h3 {
+    font-size: 1.3rem; }
+  body main section .flexRowResume {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: center;
+    flex-wrap: nowrap; }
+  body main section .h2Resume {
+    margin-right: 150px; }
+  body main section .articleResume {
+    height: 30vh;
+    width: 70vw;
+    background-color: white;
+    margin: 1rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    font-size: 0.7rem; }
+  body main section .resumeList {
+    list-style: square inside !important;
+    margin-left: -2rem; }
+
+.bodyPortfolio {
+  font-family: 'Roboto', sans-serif;
+  background-color: #7AACBF; }
+
+body main .portfolioSection {
+  margin-top: 18vh; }
+
+body main section .projectsBorder {
+  border-bottom: #6d6b6b dotted;
+  padding-bottom: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body main section .carousel-item .d-block {
+  height: 40vh;
+  width: 40%; }
+
+body main section .articlePortfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body main section .flexPortfolio {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around; }
+
+body main section .clientsLogo {
+  margin: 30px; }
+
+.bodyContact {
+  font-family: 'Roboto', sans-serif;
+  background-color: #7AACBF; }
+
+body main .contactFlex {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25vh;
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 84%;
+  height: 80%;
+  font-size: 0.8rem;
+  margin-bottom: 10vh; }
+
+body main .flexBoxContact {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center; }
+  body main .flexBoxContact a {
+    text-decoration: none; }
+
+body main .articleContact a {
+  color: black; }
+
+body main .formContact {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+body main input {
+  width: 100px;
+  transition: all 2s; }
+
+body main input:focus {
+  width: 200px;
+  font-size: 1.2rem; }
+
+body main h3 {
+  font-size: 1rem; }
+
 @media (min-width: 1024px) and (max-width: 10000px) {
   .navbar-expand-lg .navbar-collapse {
     justify-content: flex-end; }
@@ -126,4 +261,15 @@ body main footer .h3Centre {
     height: 15vh;
     padding-top: 2rem; }
   .homeSection {
-    height: 70vh; } }
+    height: 70vh; }
+  .flexBoxContact {
+    display: flex;
+    flex-direction: row !important;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.5rem; }
+    .flexBoxContact h3 {
+      font-size: 2rem; }
+  .articleContact {
+    margin-right: 100px; } }

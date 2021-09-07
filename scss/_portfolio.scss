@@ -1,0 +1,38 @@
+.bodyPortfolio{
+    font-family: 'Roboto', sans-serif;
+    background-color: #7AACBF ;
+  }
+body{
+  main{
+    .portfolioSection{
+        margin-top: 18vh;
+      }
+      section{
+        .projectsBorder{
+            border-bottom: rgb(109, 107, 107) dotted;
+            padding-bottom: 40px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .carousel-item .d-block{
+            height: 40vh;
+            width: 40%;
+          }
+          .articlePortfolio{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+          .flexPortfolio{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+          }
+          .clientsLogo{
+            margin: 30px;
+          }
+      }
+  }
+}
