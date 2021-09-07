@@ -274,4 +274,6 @@ body main h3 {
     .flexBoxContact h3 {
       font-size: 2rem; }
   .articleContact {
-    margin-right: 100px; } }
+    margin-right: 100px; }
+  .flexAboutMe {
+    height: 50vh !important; } }
